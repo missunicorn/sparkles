@@ -1,55 +1,72 @@
 <html>
 
 <style>
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-}
-    body{
-        text-align:center;
-        margin-top: 5%
-        
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
     }
+
+    body {
+        text-align: center;
+        margin-top: 5%
+    }
+
     .email {
         border-radius: 5px;
+        padding-left:5px;
+        /* margin-left: px; */
     }
 
     .username {
         border-radius: 5px;
+        padding-left:45px
     }
 
     .shops {
         border-radius: 5px;
-      
+        padding-left:90px
+    }
+
+    .submit-btn {
+        width: 80px;
+        border-radius: 5px;
     }
 </style>
 
 <body>
-    <h2>Details<h2>
     <div>
-        Email:
-        <input class='email' placeholder="enter email"></input>
+            <a href="file:///home/cindy/litter/litter.html" class="btn btn-lg btn-secondary">Home</a>
     </div>
-    <br>
-    <div>
-        Username:
-        <input class='username' placeholder="enter username"></input>
-    </div>
+    <h2>Details
+        <h2>
+            <div>
+                Email:
+                <input class='email' placeholder="enter email"></input>
+            </div>
+            <br>
+            <div>
+                Username:
+                <input class='username' placeholder="enter username"></input>
+            </div>
 
-    <br>
-    <div>
-        Shops:
-        <select class='shops'>
-            <option placeholder="Choose your shop"> </option>
-            <option>Pick'n pay</option>
-            <option>Spar</option>
-            <option>Checkers</option>
-            <option>Game</option>
-            <option>Makro</option>
-            <option>Boxer</option>
-            <option>OK</option>
+            <br>
+            <div>
+                Shops:
+                <select class='shops'>
+                    <option placeholder="Choose your shop"> </option>
+                    <option>Pick'n pay</option>
+                    <option>Spar</option>
+                    <option>Checkers</option>
+                    <option>Game</option>
+                    <option>Makro</option>
+                    <option>Boxer</option>
+                    <option>OK</option>
 
-        </select>
-    </div>
+                </select>
+            </div>
+            <br>
+            <div>
+                <button class="submit-btn">submit</button>
+            </div>
 
 
 </body>
