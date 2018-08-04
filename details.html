@@ -11,48 +11,48 @@
     }
 
     .email {
-        border-radius: 5px;
-        padding-left:5px;
+        border-radius: 3px;
+        font-size: 15px;
+        padding-left: 5px;
         /* margin-left: px; */
     }
 
     .username {
-        border-radius: 5px;
-        padding-left:45px
+        border-radius: 3px;
+        font-size: 15px;
+        padding-left: 50px
     }
 
     .shops {
         border-radius: 5px;
-        padding-left:90px
+        font-size: 15px;
+        padding-left: 93px
     }
 
-    .submit-btn {
+    #submit-btn {
         width: 80px;
-        border-radius: 5px;
+        font-size: 18px;
+        border-radius: 4px;
+        
     }
 </style>
 
 <body>
     <div>
-            <a href="file:///home/cindy/litter/litter.html" class="btn btn-lg btn-secondary">Home</a>
+        <a href="file:///home/cindy/litter/litter.html" class="btn btn-lg btn-secondary">Home</a>
     </div>
     <h2>Details
         <h2>
-            <div>
+            <form action="/action_page.php">
                 Email:
-                <input class='email' placeholder="enter email"></input>
-            </div>
-            <br>
-            <div>
-                Username:
-                <input class='username' placeholder="enter username"></input>
-            </div>
-
-            <br>
-            <div>
-                Shops:
+                <input type="text" name="firstname"class="email">
+                <br>
+                <br> Username:
+                <input type="text" name="lastname" class="username">
+                <br>
+                <br> Shops:
                 <select class='shops'>
-                    <option placeholder="Choose your shop"> </option>
+                    <option placeholder="Choose your shop">Select Shop</option>
                     <option>Pick'n pay</option>
                     <option>Spar</option>
                     <option>Checkers</option>
@@ -62,12 +62,9 @@
                     <option>OK</option>
 
                 </select>
-            </div>
-            <br>
-            <div>
-                <button class="submit-btn">submit</button>
-            </div>
-
+                <br>
+                <button type="button" id="submit-btn"><a href="file:///home/cindy/litter/Cover%20Template%20for%20Bootstrap_files/instructions.html">Submit</a></button>
+            </form>
 
 </body>
 
